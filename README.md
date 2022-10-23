@@ -1,6 +1,6 @@
 # YourRecording
 ### 介绍
-一个记录应用,可以记录数值变化。这是由ApiFlask编写的后端，由Vue编写的前端：[github](https://github.com/justin-jiajia/your-recording-front-end)
+一个记录应用,可以记录每天排放的二氧化碳。这是由ApiFlask编写的后端，由Vue编写的前端：[github](https://github.com/justin-jiajia/your-recording-front-end)
 
 ### 安装教程
 #### 1.安装依赖
@@ -15,8 +15,8 @@ vim .env
 SECRET_KEY=strong string 
 # 数据库地址，默认在当前目录生成Sqlite数据库
 # MySql: mysql://username:password@host/databasename
-# Sqlite: sqlite:////home/ubuntu/notes.db
-DATABASE_URL = sqlite:////home/ubuntu/notes.db
+# Sqlite: sqlite:////home/ubuntu/co2.db
+DATABASE_URL = sqlite:////home/ubuntu/co2.db
 ```
 #### 3.初始化数据库
 ```shell
